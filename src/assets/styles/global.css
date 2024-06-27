@@ -5,7 +5,13 @@
 
 @layer components{
 
-    
+    .topbarMenuItem{
+        @apply text-[0.75rem] flex items-center mr-3 hover:text-[#3f4347];
+    }
+
+    .containerWidth{
+        @apply w-[100%] max-w-[100%] sm:w-[540px] sm:max-w-[540px] md:w-[720px] md:max-w-[720px] lg:w-[960px] lg:max-w-[960px] xl:w-[1140px] xl:max-w-[1140px] 2xl:w-[1440px] 2xl:max-w-[1440px] mx-auto
+    }
 
 }
 
