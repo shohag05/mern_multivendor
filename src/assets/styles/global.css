@@ -13,5 +13,17 @@
         @apply w-[100%] max-w-[100%] sm:w-[540px] sm:max-w-[540px] md:w-[720px] md:max-w-[720px] lg:w-[960px] lg:max-w-[960px] xl:w-[1140px] xl:max-w-[1140px] 2xl:w-[1440px] 2xl:max-w-[1440px] mx-auto
     }
 
+    .customAnimation{
+        @apply ease-in duration-300
+    }
+
+    .hoverEffect{
+        @apply hover:text-[#D42D2A]
+    }
+
+    .mainMenuItem{
+        @apply py-4 px-4 hover:bg-[#ad2220] text-white font-[700] ease-in duration-300 text-[0.8125rem];
+    }
+
 }
 

@@ -20,7 +20,7 @@ const Topbar = () => {
                 <div className="sm:hidden md:flex w-[50%] justify-end items-center">
                     <a href="" className="topbarMenuItem border-r-gray-200 border-r-[2px] pr-3">Become a Seller!</a>
                     <a href="" className="topbarMenuItem">Login to Seller</a>
-                    <a href="tel:+01 112 352 566" className="topbarMenuItem">Helpline +01 112 352 566</a>
+                    <a href="tel:+01 112 352 566" className="topbarMenuItem mr-0">Helpline +01 112 352 566</a>
                 </div>
             </div>
 
