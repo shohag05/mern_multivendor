@@ -29,5 +29,17 @@
         @apply py-[12px] px-4 text-gray-600 text-[0.875rem] font-medium border-gray-200 border-b-[1px] hover:bg-[#fff5d9] ease-in duration-300 flex justify-start items-center gap-2
     }
 
+    .categoryFlashItem{
+        @apply py-[12px] px-4 font-medium border-gray-200 border-b-[1px] border-r-[1px] ease-in duration-300 hover:shadow-2xl
+    }
+
+    .hoverEffectTwo{
+        @apply translate-y-[15px] opacity-0 ease-in duration-300
+    }
+
+    .categoryFlashItem:hover .hoverEffectTwo{
+        @apply translate-y-[0px] opacity-100
+    }
+
 }
 

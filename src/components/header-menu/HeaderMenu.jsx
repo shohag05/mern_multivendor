@@ -7,7 +7,7 @@ import { FaShoppingCart } from "react-icons/fa";
 
 const HeaderMenu = () => {
 
-    
+
 
     return (
         <div>
@@ -19,16 +19,16 @@ const HeaderMenu = () => {
                         <IoIosArrowDown className="text-[1.2rem] ml-1 mt-[2px] text-white" />
                         <div className="absolute bg-white top-[48px] left-0 w-[100%] h-[459px] border-t-[0] border-gray-200 border-[1px]">
                             <ul className="flex flex-col">
-                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Home</a></li>
-                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Flash Sale</a></li>
-                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Blog</a></li>
-                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />All Brand</a></li>
-                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />All Category</a></li>
-                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Coupon</a></li>
-                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Todays Deal</a></li>
-                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Todays Deal</a></li>
-                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Todays Deal</a></li>
-                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Todays Deal</a></li>
+                                <li className="relative"><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Home</a></li>
+                                <li className="relative"><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Flash Sale</a></li>
+                                <li className="relative"><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Blog</a></li>
+                                <li className="relative"><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />All Brand</a></li>
+                                <li className="relative"><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />All Category</a></li>
+                                <li className="relative"><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Coupon</a></li>
+                                <li className="relative"><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Todays Deal</a></li>
+                                <li className="relative"><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Todays Deal</a></li>
+                                <li className="relative"><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Todays Deal</a></li>
+                                <li className="relative"><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Todays Deal</a></li>
                             </ul>
                         </div>
                     </div>
