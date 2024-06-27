@@ -22,7 +22,11 @@
     }
 
     .mainMenuItem{
-        @apply py-4 px-4 hover:bg-[#ad2220] text-white font-[700] ease-in duration-300 text-[0.8125rem];
+        @apply py-4 px-4 hover:bg-[#ad2220] text-white font-[700] ease-in duration-300 text-[0.8125rem]
+    }
+
+    .categoryListItem{
+        @apply py-[12px] px-4 text-gray-600 text-[0.875rem] font-medium border-gray-200 border-b-[1px] hover:bg-[#fff5d9] ease-in duration-300 flex justify-start items-center gap-2
     }
 
 }

@@ -7,16 +7,30 @@ import { FaShoppingCart } from "react-icons/fa";
 
 const HeaderMenu = () => {
 
-
+    
 
     return (
         <div>
         
             <div className="bg-[#D42D2A]">
                 <div className="containerWidth flex justify-between items-center">
-                    <div className="w-[250px] py-3 px-4 flex justify-between items-center bg-[#ad2220] hover:bg-[#9a1e1c]">
+                    <div className="w-[250px] py-3 px-4 flex justify-between items-center relative bg-[#ad2220] hover:bg-[#9a1e1c]">
                         <span className="text-[1rem] font-[700] text-white">Categories <span className="text-white font-normal opacity-80 ml-5">(see all)</span></span>
                         <IoIosArrowDown className="text-[1.2rem] ml-1 mt-[2px] text-white" />
+                        <div className="absolute bg-white top-[48px] left-0 w-[100%] h-[459px] border-t-[0] border-gray-200 border-[1px]">
+                            <ul className="flex flex-col">
+                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Home</a></li>
+                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Flash Sale</a></li>
+                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Blog</a></li>
+                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />All Brand</a></li>
+                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />All Category</a></li>
+                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Coupon</a></li>
+                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Todays Deal</a></li>
+                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Todays Deal</a></li>
+                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Todays Deal</a></li>
+                                <li className=""><a href="#" className="categoryListItem"><img src="https://demo.activeitzone.com/ecommerce/uploads/all/46v0RI8PXlQa4Yy0IftaGaK9rZUQdLOAFkpnjRXT.webp" className="w-[16px] h-[16px]" alt="" />Todays Deal</a></li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div className="list-none">
