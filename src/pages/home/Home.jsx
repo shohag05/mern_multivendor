@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../../components/hero/Hero';
 import FlashSale from '../../components/flash-sale/FlashSale';
+import TodaysDeal from '../../components/todays-deal/TodaysDeal';
 
 const Home = () => {
 
@@ -12,6 +13,8 @@ const Home = () => {
             <Hero />
 
             <FlashSale />
+
+            <TodaysDeal />
 
         </div>
     )

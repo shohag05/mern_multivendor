@@ -41,5 +41,13 @@
         @apply translate-y-[0px] opacity-100
     }
 
+    .categoryDealItem{
+        @apply py-[12px] px-4 font-medium ease-in duration-300
+    }
+
+    .categoryDealItem:hover .pulseEffect{
+        @apply animate-pulse
+    }
+
 }
 
