@@ -59,5 +59,37 @@
         @apply py-2 block text-[13px] text-white after:absolute after:content-[''] after:bottom-[-5px] after:bg-[#fff] after:h-[1px] after:left-0 after:right-0 after:rounded-[2px] ease-in duration-300 after:scale-x-0 hover:after:scale-x-[1] hover:after:origin-left
     }
 
+    /* product card design */
+
+    .box {
+        box-shadow:
+        232px auto 0 2px #fff,
+        -232px -100% 0 2px #fff,
+        0 0 0 3px tomato;
+        transition: 0.2s 0.18s 0.16s 0.14s;
+    }
+    
+    .box:hover {
+        box-shadow:
+        232px 3px 0 -3px #fff,
+        -0px 3px 0 -3px #fff,
+        0 0 0 3px tomato;
+        transition: 0.3s;
+    }
+
+    .box:hover::before,
+    .box:hover::after {
+        width: 232px;
+        transition: 0.2s 0.18s 0.16s 0.14s;
+    }
+
+    .cartBtn{
+        @apply text-[13px] font-bold block text-center text-white h-[34px] origin-bottom
+    }
+
+    .box:hover .cartBtn{
+        @apply scale-y-100 opacity-100 translate-y-[0px] 
+    }
+
 }
 

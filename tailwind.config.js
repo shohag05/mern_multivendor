@@ -8,7 +8,20 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        'box-width': '230px',
+        'border-thickness': '3px',
+      },
+      colors: {
+        'border-color': 'tomato',
+        'background-color': '#fff',
+      },
+      transitionDuration: {
+        'custom': '200ms',
+        'custom-long': '180ms',
+      },
+    },
   },
   plugins: [],
 }

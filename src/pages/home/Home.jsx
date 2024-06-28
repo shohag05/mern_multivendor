@@ -4,6 +4,7 @@ import FlashSale from '../../components/flash-sale/FlashSale';
 import TodaysDeal from '../../components/todays-deal/TodaysDeal';
 import FeaturedCategories from '../../components/featured-categories/FeaturedCategories';
 import BannerOne from '../../components/banner-one/BannerOne';
+import FeaturedProducts from '../../components/featured-products/FeaturedProducts';
 
 const Home = () => {
 
@@ -21,6 +22,8 @@ const Home = () => {
             <FeaturedCategories />
 
             <BannerOne />
+
+            <FeaturedProducts />
 
         </div>
     )
