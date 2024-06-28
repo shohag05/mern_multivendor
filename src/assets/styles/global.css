@@ -49,5 +49,15 @@
         @apply animate-pulse
     }
 
+    /* footer section design */
+
+    .footerIconHoverEffect{
+        @apply hover:translate-y-[5px] ease-in duration-300
+    }
+
+    .footerMenuItem{
+        @apply py-2 block text-[13px] text-white after:absolute after:content-[''] after:bottom-[-5px] after:bg-[#fff] after:h-[1px] after:left-0 after:right-0 after:rounded-[2px] ease-in duration-300 after:scale-x-0 hover:after:scale-x-[1] hover:after:origin-left
+    }
+
 }
 
