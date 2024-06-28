@@ -6,6 +6,7 @@ import FeaturedCategories from '../../components/featured-categories/FeaturedCat
 import BannerOne from '../../components/banner-one/BannerOne';
 import FeaturedProducts from '../../components/featured-products/FeaturedProducts';
 import BannerTwo from '../../components/banner-two/BannerTwo';
+import BestSelling from '../../components/best-selling/BestSelling';
 
 const Home = () => {
 
@@ -27,6 +28,8 @@ const Home = () => {
             <FeaturedProducts />
 
             <BannerTwo />
+
+            <BestSelling />
 
         </div>
     )
