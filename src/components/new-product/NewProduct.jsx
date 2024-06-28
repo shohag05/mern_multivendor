@@ -14,7 +14,7 @@ const NewProduct = () => {
             <div className="">
                 <div className="containerWidth">
 
-                    <h3 className="font-[700] text-[20px] flex justify-between items-center text-[#1b1b28] mb-4 mt-3">
+                    <h3 className="font-[700] text-[20px] flex justify-between items-center text-[#1b1b28] mb-4 mt-0">
                         <div className="">New Products</div>
                         <a href="#" className="font-[700] text-[13px]">View All Product</a>
                     </h3>

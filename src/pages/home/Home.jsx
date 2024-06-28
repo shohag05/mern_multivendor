@@ -8,6 +8,7 @@ import FeaturedProducts from '../../components/featured-products/FeaturedProduct
 import BannerTwo from '../../components/banner-two/BannerTwo';
 import BestSelling from '../../components/best-selling/BestSelling';
 import NewProduct from '../../components/new-product/NewProduct';
+import BannerThree from '../../components/banner-three/BannerThree';
 
 const Home = () => {
 
@@ -33,6 +34,8 @@ const Home = () => {
             <BestSelling />
 
             <NewProduct />
+
+            <BannerThree />
 
         </div>
     )
