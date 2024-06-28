@@ -3,6 +3,7 @@ import Hero from '../../components/hero/Hero';
 import FlashSale from '../../components/flash-sale/FlashSale';
 import TodaysDeal from '../../components/todays-deal/TodaysDeal';
 import FeaturedCategories from '../../components/featured-categories/FeaturedCategories';
+import BannerOne from '../../components/banner-one/BannerOne';
 
 const Home = () => {
 
@@ -18,6 +19,8 @@ const Home = () => {
             <TodaysDeal />
 
             <FeaturedCategories />
+
+            <BannerOne />
 
         </div>
     )
